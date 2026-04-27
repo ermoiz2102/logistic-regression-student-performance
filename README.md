@@ -1,8 +1,8 @@
-# 📊 Logistic Regression (Manual vs Scikit-learn)
+# 🎓 Student Performance Prediction using Logistic Regression
 
 ## 📌 Overview
 
-This project demonstrates Logistic Regression by implementing it manually using mathematical concepts and comparing it with Scikit-learn. It includes probability estimation, log loss calculation, and visualization in both 2D and 3D.
+This project demonstrates Logistic Regression using both manual implementation and Scikit-learn. It predicts whether a student will pass or fail based on study hours and sleep hours.
 
 ---
 
@@ -10,15 +10,21 @@ This project demonstrates Logistic Regression by implementing it manually using 
 
 * Understand Logistic Regression mathematically
 * Implement sigmoid and log loss manually
-* Compare manual vs Scikit-learn results
-* Extend model to multivariate case
+* Predict student performance using multiple features
+* Visualize model behavior
 
 ---
 
 ## 📂 Dataset
 
-* Small custom dataset (Age vs Pass/Fail)
-* Multivariate dataset (Age & Income)
+### Features:
+
+* Hours Studied
+* Hours Slept
+
+### Target:
+
+* Pass (1) / Fail (0)
 
 ---
 
@@ -27,26 +33,29 @@ This project demonstrates Logistic Regression by implementing it manually using 
 * Manual Logistic Regression (Sigmoid Function)
 * Log Loss Calculation
 * Scikit-learn Model Training
-* Model Comparison
+* Univariate Analysis
 * Multivariate Logistic Regression
-* 2D & 3D Visualization
+* 2D Visualization
+* 3D Probability Surface Visualization
 
 ---
 
 ## 📊 Results
 
-* Manual model provides conceptual understanding
-* Scikit-learn model achieves better optimized results
-* Multivariate model improves prediction accuracy
-* Visualization clearly shows probability separation
+* Manual implementation helped understand model behavior
+* Scikit-learn provided optimized predictions
+* Multivariate model improved prediction accuracy
+* Study and sleep both impact performance
 
 ---
 
 ## 🖼️ Visualization
 
-<img width="1046" height="706" alt="image" src="https://github.com/user-attachments/assets/bd50d789-39e9-4508-9a1d-06a5cfbe48a4" />
+<img width="1046" height="706" alt="image" src="https://github.com/user-attachments/assets/f671cf05-565e-41c6-b57c-124ca1286d3b" />
 
-<img width="1431" height="540" alt="image" src="https://github.com/user-attachments/assets/4665a48e-5a8e-451a-8029-def41d3a18a4" />
+<img width="1431" height="540" alt="image" src="https://github.com/user-attachments/assets/3e9b991b-07ad-4d73-9f08-97fa3df187cd" />
+
+
 
 
 
@@ -66,7 +75,7 @@ This project demonstrates Logistic Regression by implementing it manually using 
 ## 🚀 Future Improvements
 
 * Add decision boundary visualization
-* Use real-world dataset
-* Evaluate using precision, recall, F1-score
+* Use larger real-world dataset
+* Evaluate using accuracy, precision, recall
 
 ---
